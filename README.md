@@ -1,72 +1,154 @@
 # silentganja
 
-Hi, I’m Mirza — a full-stack developer based in Malaysia.
+> backend-first full-stack dev. fast brain. quiet build.
 
-I build web apps, backend systems, and developer tools with a focus on clean structure, security, and practical user experience. I like working close to the product: from database design and APIs to frontend flows, deployment, and debugging the weird stuff in between.
+I’m Mirza, a developer from Malaysia.
 
-Currently looking for opportunities as a **Full-Stack Developer** or **Junior Developer**.
+I build web apps, backend systems, dashboards, tools, and random “wait, this should exist” ideas that somehow turn into actual projects.
+
+My brain usually jumps between architecture, security, UI flow, deployment, weird edge cases, and “why is this API lying to me?” - so I like building systems that are simple enough to survive the chaos.
+
+Clean structure. Secure defaults. Useful interfaces. Less noise.
 
 ---
 
-## What I work with
+## current operating mode
+
+- build the backend first, because the data flow decides everything
+- make the UI calm, because the system behind it is already doing enough
+- remove unnecessary complexity before it becomes a personality trait
+- ship small, improve fast, refactor when the pattern becomes obvious
+- keep things readable for future me, because future me will absolutely forget the context
+
+---
+
+## what I usually build
+
+| Area | What happens there |
+| --- | --- |
+| Backend | APIs, auth, roles, permissions, databases, business logic |
+| Frontend | React interfaces, dashboards, forms, clean user flows |
+| Security | safer defaults, access control, audit trails, risky-change checks |
+| Infrastructure | Docker, VPS setup, Nginx, deployment, environment sanity |
+| Tools | CLI utilities, automation, code analysis, workflow helpers |
+
+---
+
+## stack I reach for
+
+**Languages**  
+TypeScript, JavaScript, Rust, Java, SQL
 
 **Frontend**  
-React, Next.js, TypeScript, Tailwind CSS, responsive UI
+React, Next.js, Tailwind CSS
 
 **Backend**  
-Node.js, Rust, Java Spring Boot, REST APIs, auth, database design
+Node.js, Spring Boot, REST APIs, authentication, authorization
 
-**Database & Infra**  
-PostgreSQL, MySQL, Redis, Docker, Linux VPS, Nginx, CI/CD basics
-
-**Other interests**  
-Security-minded development, dev tooling, code architecture, automation
+**Database / Infra**  
+PostgreSQL, MySQL, Redis, Docker, Linux, Nginx, AWS Lightsail
 
 ---
 
-## Projects
+## projects that escaped the idea phase
 
-### [Unggul Axiom Hub](https://github.com/silentganja/unggul-axiom-hub)
-Enterprise-style cloud storage and collaboration platform.
+### [unggul-axiom-hub](https://github.com/silentganja/unggul-axiom-hub)
 
-Built with a Rust backend, Next.js frontend, PostgreSQL, Redis, Docker, and AWS Lightsail.  
-Focus areas: access control, file management, audit logs, admin tooling, and production deployment.
+Cloud storage and collaboration platform.
+
+The kind of project where one feature becomes twelve questions:
+
+- who can access this file?
+- who changed it?
+- where is the audit trail?
+- what happens when permissions overlap?
+- can this actually run in production?
+
+Built with Rust, Next.js, PostgreSQL, Redis, Docker, and AWS Lightsail.
+
+Main focus: file management, access control, audit logs, admin workflows, deployment.
+
+---
 
 ### [VibeGuard](https://github.com/silentganja/VibeGuard)
-CLI tool that runs security-focused checks before code is pushed.
 
-It installs as a Git pre-push hook, analyzes diffs, tests local endpoints, and helps catch risky changes earlier in the workflow.
+Security-focused CLI tool for catching risky changes before code gets pushed.
+
+Because sometimes the best time to notice a bad change is before it becomes everyone’s problem.
+
+It works as a Git pre-push hook, analyzes diffs, checks local endpoints, and helps keep the development workflow a little safer.
+
+Main focus: developer tooling, automation, security checks, Git workflow.
+
+---
 
 ### [archmap](https://github.com/silentganja/archmap)
-A codebase analysis tool for finding real module boundaries and hidden coupling.
 
-Useful for understanding large or messy projects before refactoring.
+Codebase analysis tool for understanding how a project is actually structured.
 
-### [Centiria GSM](https://github.com/silentganja/centiria-gsm)
+Not how the folders pretend it is structured.  
+How it really connects.
+
+Built for finding module boundaries, hidden coupling, messy dependencies, and places where refactoring might hurt.
+
+Main focus: architecture, code analysis, dependency mapping, refactoring support.
+
+---
+
+### [centiria-gsm](https://github.com/silentganja/centiria-gsm)
+
 Game server management panel for Arma Reforger dedicated servers.
 
-Built with React, TypeScript, Spring Boot, MySQL, Docker, and Nginx.  
-Focus areas: server deployment, admin dashboard, automation, and VPS setup.
+A dashboard for managing servers, deployment flow, admin controls, and backend operations without living inside a terminal forever.
+
+Built with React, TypeScript, Spring Boot, MySQL, Docker, and Nginx.
+
+Main focus: server management, admin UI, backend control flow, VPS deployment.
 
 ---
 
-## How I like to build
+## how I think about code
 
-I prefer simple systems that are easy to read, easy to debug, and not over-engineered.
+I like code that makes sense when you come back to it later.
 
-Good code, to me, means:
-- clear naming
-- predictable structure
-- secure defaults
-- useful error handling
-- UI that does not fight the user
+Not perfect code.  
+Not “10 layers of abstraction because a blog said so” code.  
+Just code that gives you a clear path through the system.
 
-I’m still learning, still shipping, and always trying to make the next version cleaner than the last.
+The usual order in my head:
+
+**data → rules → security → API → interface → polish**
+
+If the foundation is messy, the UI eventually becomes a crime scene.
 
 ---
 
-## Contact
+## things I care about
 
-Portfolio / site: [centiria.my](https://www.centiria.my)
+- readable structure
+- predictable naming
+- secure access control
+- useful errors
+- boring deployment
+- calm interfaces
+- fewer magic tricks
+- tools that save time instead of creating new rituals
 
-Open to full-stack, junior developer, backend, and web application roles.
+---
+
+## outside the code
+
+Usually rotating between:
+
+- simulation mechanics
+- psychological stories
+- game systems
+- infrastructure experiments
+- quiet coffee
+- one “small idea” that becomes a full project somehow
+
+<br>
+
+<div align="center">
+  <i>many tabs open. still shipping.</i>
+</div>
