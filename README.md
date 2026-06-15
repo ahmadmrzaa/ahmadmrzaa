@@ -52,7 +52,7 @@ PostgreSQL, MySQL, Redis, Docker, Linux, Nginx, AWS Lightsail
 
 ## projects that escaped the idea phase
 
-### [unggul-axiom-hub](https://github.com/silentganja/unggul-axiom-hub)
+### [unggul-axiom-hub](https://github.com/ahmadmrzaa/unggul-axiom-hub)
 
 Cloud storage and collaboration platform.
 
