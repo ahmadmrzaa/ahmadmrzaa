@@ -1,4 +1,4 @@
-# silentganja
+# ahmadmrza
 
 > backend-first full-stack dev. fast brain. quiet build.
 
@@ -70,7 +70,7 @@ Main focus: file management, access control, audit logs, admin workflows, deploy
 
 ---
 
-### [VibeGuard](https://github.com/silentganja/VibeGuard)
+### [VibeGuard](https://github.com/ahmadmrzaa/VibeGuard)
 
 Security-focused CLI tool for catching risky changes before code gets pushed.
 
@@ -82,7 +82,7 @@ Main focus: developer tooling, automation, security checks, Git workflow.
 
 ---
 
-### [archmap](https://github.com/silentganja/archmap)
+### [archmap](https://github.com/ahmadmrzaa/archmap)
 
 Codebase analysis tool for understanding how a project is actually structured.
 
@@ -95,7 +95,7 @@ Main focus: architecture, code analysis, dependency mapping, refactoring support
 
 ---
 
-### [centiria-gsm](https://github.com/silentganja/centiria-gsm)
+### [centiria-gsm](https://github.com/ahmadmrzaa/centiria-gsm)
 
 Game server management panel for Arma Reforger dedicated servers.
 
